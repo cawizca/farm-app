@@ -1,0 +1,68 @@
+.formBox{
+    background-color:#fff; 
+    width:1000px; 
+    height:550px;
+    border-radius: 30px;
+    margin-top: 15vh;
+}
+
+.box-background{
+    background: linear-gradient(to bottom right, rgba(55,55,55,.57), rgba(55,55,55,.57)), url('../images/forum-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+    height: 550px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.main-text{
+    background-color: #93CF41;
+    width: 350px;
+    height: 120px;
+    margin-left: 4vh;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: left;
+    line-height: 0.8;
+    color: #fff;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.main-text span{
+    font-size: 28px;
+}
+
+.secondary-text{
+    margin-left: 5vh;
+    text-align: left;
+    margin-top: 5vh;
+    width: 320px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.above-form-text{
+    text-align: right;
+    margin-top: 5vh;
+    width: 280px;
+    font-weight: 300;
+    color: #707070;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    right: 15%;
+}
+
+.logo-image-form{
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    height: 15%;
+    width: auto;
+
+}

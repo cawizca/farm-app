@@ -1,0 +1,59 @@
+.heroSection{
+    background: linear-gradient(to bottom right, rgba(0,0,0,.59), rgba(0,0,0,.59)), url('../images/backgroundImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 91.5vh;
+    display: flex;
+}
+
+.textSection{
+    width: 50%;
+}
+
+.h1Style{
+    color:#93CF41;
+    text-transform: uppercase; 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 600; 
+    font-size: 60px;
+    margin-bottom: 2.5%;
+}
+
+.pStyle{
+    color: #fff;
+    text-align: center; 
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 2.5%;
+}
+
+.contactButton{
+    color: #93CF41;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 3px #93CF41 solid;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2.5%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contactButton:hover{
+    background-color: #93CF41;
+    color: #fff;
+}
+
+.row{
+    width: 100%;
+    text-align: center;
+}
+
+.paragraph{
+    width: 50%;
+    text-align: center;
+    color:#ffffff;
+}
+
+
+
+

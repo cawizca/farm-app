@@ -1,0 +1,122 @@
+.card{
+    width:280px;
+    height: 300px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.16);
+    border-radius: 18px;
+    margin: 5% 5%;
+    transition: all 0.8s ease;
+    border: 5px #93CF41 solid;
+}
+
+.card:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.card::before{
+    content: "";
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    border-radius: 18px;
+    transition: 0.5s all;
+    position:absolute;
+    bottom: 0px;
+    opacity: 0;
+    z-index: 2;
+}
+
+.card:hover:before{
+    opacity: 1;
+    height: 100%;
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+}
+
+.card-button{
+    width: 60px;
+    height: 60px;
+    background-color: #93CF41;
+    border-radius: 10px;
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 99;
+}
+
+.card-details{
+    position: absolute;
+    z-index: 3;
+    transition: all 0.8s ease;
+    transform: translateY(30px);
+    opacity: 0;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover .card-details{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.card-details h3{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #93CF41;
+    font-weight: 700;
+    
+}
+
+.weight{
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 10%;    
+}
+
+.card-details hr{
+    position: absolute;
+    left: 10%;
+    width: 25%;
+    top: 18%;
+    border: 2px #93CF41 solid;
+}
+
+.description{
+    color: #fff;
+    text-align: left;
+    width: 75%;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+.price{
+    width: 110px;
+    height: 40px;
+    background-color: #93CF41;
+    border-radius: 11px;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    z-index: 3;
+    color: #fff;
+    font-weight: 500;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cents{
+    font-size: 15px;
+}
